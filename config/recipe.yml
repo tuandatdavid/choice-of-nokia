@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
 name: choice-of-nokia
 # description will be included in the image's metadata
-description: This is my personal OS image of Nokiapapír
+description: This is the personal OS image of NokiapapÃ­r
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
+base-image: ghcr.io/ublue-os/bluefin
 image-version: 39 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -37,7 +37,7 @@ modules:
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         # - org.mozilla.firefox
-        # - org.gnome.Loupe
+        # - org.gnome.Loupee
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
         # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
 
