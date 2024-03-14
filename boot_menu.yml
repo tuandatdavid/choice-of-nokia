@@ -1,5 +1,5 @@
 ublue_variants:
-  - label: blue-build/template
+  - label: tuandatdavid/choice-of-nokia
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: blue-build/template
+      - label: choice-of-nokia
