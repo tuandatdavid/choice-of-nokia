@@ -25,7 +25,8 @@ modules:
       qemu-kvm 
       virt-install 
       virt-manager 
-      virt-viewe
+      virt-viewer
+      chromium
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -38,7 +39,7 @@ modules:
       # If no repo information is specified, Flathub will be used by default
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flatapps
-      repo-title: "Flathub" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      repo-title: "Potato Apps" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
         org.mozilla.firefox
         # - org.gnome.Loupee
